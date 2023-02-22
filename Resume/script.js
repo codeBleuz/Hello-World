@@ -1,7 +1,8 @@
 
 onload=()=>{
   console.log ("The page is fully loaded.");
-  setTimeout (() => {
-    confirm ("The page is fully loaded");
-  }, 5000);
-}
+  myMessage = confirm ("The page is fully loaded");
+  setTimeout(myMessage, 5000);
+
+
+
